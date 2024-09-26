@@ -1,0 +1,4 @@
+# Abrimos el archivo en modo escritura
+with open("mi_archivo.txt", "w") as archivo:
+    # Escribimos el contenido en el archivo
+    archivo.write("Hola, mundo!")
